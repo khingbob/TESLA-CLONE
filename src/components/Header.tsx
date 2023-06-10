@@ -1,5 +1,4 @@
 import css from "./Header.module.css";
-import contentcss from "./Content.module.css";
 import globe from "../assets/globe.jpg";
 export default (props: any) => {
   window.onload = () => {
