@@ -38,14 +38,6 @@ export const scrollCheck = () => {
 document.documentElement.className = "cybertruckMode";
 export default () => {
   document.documentElement.className = "RoadsterMode";
-  const windowHeightBreak = 590;
-  const [windowTall, setWindowTall] = useState(
-    window.innerHeight >= windowHeightBreak
-  );
-  const checkWindowHeight = () => {
-    if (windowTall) {
-    }
-  };
   const headerWidthBreak = 950;
   const [headerNarrow, setHeaderNarrow] = useState(
     window.innerWidth < headerWidthBreak
