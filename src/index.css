@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "teslaFont";
+  src: url("./assets/teslaFont.otf") format("opentype");
+}
+body {
+  margin: 0;
+  font-family: "teslaFont";
+  display: flex;
+  flex-flow: column;
+  font-weight: 100;
+  color: #393c41;
+  user-select: none;
+  -webkit-user-select: none;
+}
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+#Tequila {
+  background-color: black;
+}
+#TequilaImg {
+  object-fit: fill;
+  width: auto;
+  height: 85vh;
+}
+#Optimus {
+  background-color: black;
+}
+#OptimusImg {
+  object-fit: fill;
+  width: auto;
+  height: 90vh;
+}
+#ncapInfo {
+  font-size: 10px;
+  width: 50vw;
+  min-width: 420px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.RoadsterMode {
+  --left: 0;
+  --headerBlur: none;
+  --tesla: black;
+  --middleTabs: #393c41;
+  --rightTabs: #393c41;
+  --menuColor: black;
+  --floater: #6f0f1638;
+  --top: 10vh;
+  --modelName: black;
+  --orderBackground: #21090bcc;
+  --orderHover: #5f1c1f;
+  --orderColor: #d3d3d3;
+  --learnBackground: #ffffff82;
+  --learnHover: white;
+  --learnColor: #393c41;
+  --ncap: white;
+}
+
+.CybertruckMode {
+  --left: 0;
+  --headerBlur: blur(5px);
+  --tesla: black;
+  --middleTabs: #272727;
+  --rightTabs: black;
+  --menuColor: black;
+  --floater: #434a4d2e;
+  --top: 18vh;
+  --modelName: black;
+  --orderBackground: #3138499e;
+  --orderHover: #454f67;
+  --orderColor: #d3d3d3;
+  --learnBackground: #ffffff82;
+  --learnHover: white;
+  --learnColor: #393c41;
+  --ncap: white;
+}
+.SemiLight {
+  --left: 0;
+  --headerBlur: none;
+  --tesla: black;
+  --middleTabs: #272727;
+  --rightTabs: #272727;
+  --menuColor: black;
+  --floater: #fbbd8547;
+  --top: 10vh;
+  --modelName: black;
+  --orderBackground: #fbbd8547;
+  --orderHover: #fbbc8587;
+  --orderColor: #d3d3d3;
+  --learnBackground: #ffffff82;
+  --learnHover: white;
+  --learnColor: #393c41;
+  --ncap: white;
+}
+.SemiDark {
+  --left: 0;
+  --headerBlur: none;
+  --tesla: white;
+  --middleTabs: white;
+  --rightTabs: white;
+  --menuColor: white;
+  --floater: gray;
+  --top: 9vh;
+  --modelName: white;
+  --orderBackground: #37373770;
+  --orderHover: #373737;
+  --orderColor: #d3d3d3;
+  --learnBackground: #ffffff82;
+  --learnHover: white;
+  --learnColor: #393c41;
+  --ncap: white;
+}
+.OptimusMode {
+  --left: 0;
+  --headerBlur: none;
+  --tesla: white;
+  --middleTabs: white;
+  --rightTabs: white;
+  --menuColor: white;
+  --floater: #49463e38;
+  --top: 9vh;
+  --modelName: white;
+  --orderBackground: #c0c0c02e;
+  --orderHover: #c0c0c05c;
+  --orderColor: #d3d3d3;
+  --learnBackground: #ffffff82;
+  --learnHover: white;
+  --learnColor: #393c41;
+  --ncap: white;
+}
+.TequilaMode {
+  --headerBlur: none;
+  --tesla: white;
+  --middleTabs: white;
+  --rightTabs: white;
+  --menuColor: white;
+  --floater: #49463e38;
+  --top: 15vh;
+  --left: 15vw;
+  --modelName: #ecbc00;
+  --orderBackground: #473021;
+  --orderHover: #863501c4;
+  --orderColor: #d3d3d3;
+  --learnBackground: #ffffff82;
+  --learnHover: white;
+  --learnColor: #393c41;
+  --ncap: #ffffff8a;
+}
+.TequilaNarrow {
+  --headerBlur: none;
+  --tesla: white;
+  --middleTabs: white;
+  --rightTabs: white;
+  --menuColor: white;
+  --floater: #49463e38;
+  --top: 15vh;
+  --left: -20vw;
+  --modelName: #ecbc00;
+  --orderBackground: #473021;
+  --orderHover: #863501c4;
+  --orderColor: #d3d3d3;
+  --learnBackground: #ffffff82;
+  --learnHover: white;
+  --learnColor: #393c41;
+  --ncap: #ffffff8a;
+}
