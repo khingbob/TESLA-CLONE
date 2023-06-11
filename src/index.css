@@ -175,3 +175,8 @@ a {
   --learnColor: #393c41;
   --ncap: #ffffff8a;
 }
+.fadeSet {
+  --modelTop: 15vh;
+  --fadeOpacity: 0;
+  --orderGap: 6vw;
+}

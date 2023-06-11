@@ -1,5 +1,7 @@
 import css from "./Header.module.css";
+import modelcss from "./Model.module.css";
 import globe from "../assets/globe.jpg";
+import { scrollCheck } from "../App";
 export default (props: any) => {
   window.onload = () => {
     let outIn = true;
@@ -26,6 +28,13 @@ export default (props: any) => {
       floater.classList.add(css.floaterOut);
       outIn = true;
     };
+
+    setTimeout(() => {
+      document
+        .getElementById(modelcss.modelDiv)
+        ?.classList.remove(modelcss.modelDiv);
+    }, 3500);
+    scrollCheck();
   };
   const closeMenu = () => {
     const frost = document.getElementById(css.frost) as HTMLElement;

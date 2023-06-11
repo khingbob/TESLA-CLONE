@@ -1,7 +1,7 @@
 import css from "./Model.module.css";
 export default () => {
   return (
-    <>
+    <div id={css.modelDiv} className={css.modelDiv}>
       <div id={css.modelName}>Roadster</div>
       <div id={css.footerBox}>
         <div id={css.footer}>
@@ -10,6 +10,6 @@ export default () => {
         </div>
         <div id={css.ncap}>SPEED</div>
       </div>
-    </>
+    </div>
   );
 };
