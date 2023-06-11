@@ -2,14 +2,16 @@ import css from "./Header.module.css";
 import modelcss from "./Model.module.css";
 import globe from "../assets/globe.jpg";
 import { scrollCheck } from "../App";
+import { useEffect } from "react";
 export default (props: any) => {
-  window.onload = () => {
+  useEffect(() => {
     let outIn = true;
     const frost = document.getElementById(css.frost) as HTMLElement;
     frost.style.display = "none";
     const tabs = document.getElementsByClassName(css.tab);
     const floater = document.getElementById(css.floater) as HTMLElement;
     const header = document.getElementById(css.header) as HTMLElement;
+    console.log("check");
     for (let i = 0; i < tabs.length; i++) {
       tabs[i].addEventListener("mouseover", (e: any) => {
         let rect = e.target.getBoundingClientRect();
@@ -35,7 +37,7 @@ export default (props: any) => {
         ?.classList.remove(modelcss.modelDiv);
     }, 3500);
     scrollCheck();
-  };
+  });
   const closeMenu = () => {
     const frost = document.getElementById(css.frost) as HTMLElement;
     document.getElementById(css.hiddenMenu)?.classList.remove(css.open);

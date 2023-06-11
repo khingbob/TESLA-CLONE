@@ -5,7 +5,6 @@ import modelcss from "./components/Model.module.css";
 import { useState } from "react";
 
 export const scrollCheck = () => {
-  console.log("scrollCheck");
   allModels.forEach((model) => {
     let ncap: any = document.getElementById(modelcss.ncap);
     let top: any = document
@@ -36,8 +35,8 @@ export const scrollCheck = () => {
     }
   });
 };
+
 export default () => {
-  document.documentElement.className = "fadeSet";
   const headerWidthBreak = 950;
   const [headerNarrow, setHeaderNarrow] = useState(
     window.innerWidth < headerWidthBreak
@@ -56,14 +55,12 @@ export default () => {
   };
 
   window.onresize = () => {
-    console.log("resize");
     checkNarrow(headerNarrow, setHeaderNarrow, headerWidthBreak);
     scrollCheck();
   };
 
   window.onscroll = () => {
     scrollCheck();
-    console.log("scroll");
   };
 
   return (

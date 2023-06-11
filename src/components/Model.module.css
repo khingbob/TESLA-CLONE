@@ -12,7 +12,10 @@
   z-index: 10;
   color: var(--modelName);
   opacity: var(--fadeOpacity, 1);
-  transition: var(--modelTransition, all 0.5s ease-in-out);
+  transition: var(
+    --modelTransition,
+    var(--tequila, top 0.5s ease-in-out, color 0.5s ease-in-out)
+  );
 }
 #footerBox {
   position: fixed;

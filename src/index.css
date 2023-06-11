@@ -138,6 +138,7 @@ a {
   --learnHover: white;
   --learnColor: #393c41;
   --ncap: white;
+  --tequila: all 0.5s ease-in-out;
 }
 .TequilaMode {
   --headerBlur: none;
@@ -156,6 +157,7 @@ a {
   --learnHover: white;
   --learnColor: #393c41;
   --ncap: #ffffff8a;
+  --tequila: all 0.5s ease-in-out;
 }
 .TequilaNarrow {
   --headerBlur: none;
@@ -174,6 +176,7 @@ a {
   --learnHover: white;
   --learnColor: #393c41;
   --ncap: #ffffff8a;
+  --tequila: all 0.5s ease-in-out;
 }
 .fadeSet {
   --modelTop: 15vh;
