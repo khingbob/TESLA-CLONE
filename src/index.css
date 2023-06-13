@@ -2,6 +2,7 @@
   font-family: "teslaFont";
   src: url("./assets/teslaFont.otf") format("opentype");
 }
+
 body {
   margin: 0;
   font-family: "teslaFont";
@@ -11,18 +12,20 @@ body {
   color: #393c41;
   user-select: none;
   -webkit-user-select: none;
+  height: 100dvh;
 }
 html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  width: 100dvw;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 ::-webkit-scrollbar {
-  width: 0;
+  width: 0px;
 }
 #Tequila {
   background-color: black;
@@ -181,5 +184,5 @@ a {
 .fadeSet {
   --modelTop: 15vh;
   --fadeOpacity: 0;
-  --orderGap: 6vw;
+  --orderGap: 150px;
 }

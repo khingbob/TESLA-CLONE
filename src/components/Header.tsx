@@ -11,7 +11,6 @@ export default (props: any) => {
     const tabs = document.getElementsByClassName(css.tab);
     const floater = document.getElementById(css.floater) as HTMLElement;
     const header = document.getElementById(css.header) as HTMLElement;
-    console.log("check");
     for (let i = 0; i < tabs.length; i++) {
       tabs[i].addEventListener("mouseover", (e: any) => {
         let rect = e.target.getBoundingClientRect();

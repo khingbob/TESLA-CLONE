@@ -32,7 +32,7 @@
   opacity: var(--fadeOpacity, 1);
   display: flex;
   gap: var(--orderGap, 30px);
-  transition: opacity 1s 1.5s ease-in-out, gap 1s 1.5s ease-in-out;
+  transition: opacity 0.8s 1.5s ease-in-out, gap 0.8s 1.5s ease-in-out;
 }
 #footer div {
   border-radius: 4px;
@@ -61,5 +61,5 @@
   font-size: 12px;
   color: var(--ncap);
   opacity: var(--fadeOpacity, 1);
-  transition: opacity 1s 2s ease-in-out;
+  transition: opacity 1s 2.2s ease-in-out;
 }
