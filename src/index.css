@@ -29,6 +29,7 @@ a {
 }
 #Tequila {
   background-color: black;
+  height: 100vh;
 }
 #TequilaImg {
   width: auto;
@@ -36,7 +37,7 @@ a {
 }
 #Optimus {
   background-color: black;
-  overflow-x: hidden;
+  height: 100vh;
 }
 #OptimusImg {
   width: auto;

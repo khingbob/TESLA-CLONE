@@ -31,7 +31,7 @@ export default [
   { name: "Roadster", src: roadster, srcV: roadsterV, ncap: "SPEED" },
   { name: "Cybertruck", src: cybertruck, srcV: cybertruckV, ncap: "STRENGTH" },
   { name: "Semi", src: semi, srcV: semiV, ncap: "POWER" },
-  { name: "Optimus", src: optimus, srcV: optimusV, ncap: "INTELLIGENCE" },
+  { name: "Optimus", src: optimus, srcV: optimus, ncap: "INTELLIGENCE" },
   {
     name: "Tequila",
     src: tequila,
