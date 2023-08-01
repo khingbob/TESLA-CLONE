@@ -5,9 +5,8 @@ import cybertruckV from "./assets/cybertruckV.webp";
 import semi from "./assets/semi.webp";
 import semiV from "./assets/semi.jpg";
 import optimus from "./assets/optimus.png";
-import optimusV from "./assets/optimusV.png";
+import optimusV from "./assets/optimus.png";
 import tequila from "./assets/tequila.jpg";
-import tequilaV from "./assets/tequilaV.jpg";
 let div = document.createElement("div");
 div.id = "ncapInfo";
 let tesladiv = document.createElement("div");
@@ -36,7 +35,7 @@ export default [
   {
     name: "Tequila",
     src: tequila,
-    srcV: tequilaV,
+    srcV: tequila,
     ncap: div,
   },
 ];
