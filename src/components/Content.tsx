@@ -2,6 +2,7 @@ import css from "./Content.module.css";
 import Model from "./Model";
 import allModels from "../allModels";
 export default () => {
+  alert(window.innerWidth);
   return (
     <>
       <Model />
