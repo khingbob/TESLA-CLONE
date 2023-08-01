@@ -2,6 +2,7 @@ import css from "./Content.module.css";
 import Model from "./Model";
 import allModels from "../allModels";
 export default () => {
+  alert(window.innerWidth);
   return (
     <>
       <Model />
@@ -12,7 +13,7 @@ export default () => {
             <source srcSet={model.srcV} media="(max-width: 719px)" />
             <img
               id={model.name + "Img"}
-              alt="Didn't work"
+              alt="Tesla Product"
               className={css.contentImage}
             />
           </picture>
