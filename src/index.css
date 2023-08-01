@@ -31,7 +31,6 @@ a {
   background-color: black;
 }
 #TequilaImg {
-  object-fit: fill;
   width: auto;
   height: 85vh;
 }
@@ -39,7 +38,6 @@ a {
   background-color: black;
 }
 #OptimusImg {
-  object-fit: fill;
   width: auto;
   height: 90vh;
 }
